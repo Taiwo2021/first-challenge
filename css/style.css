@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-BG {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+
+}
+
+.card-BG {
+    background-color: hsl(216, 50%, 16%);
+    height: 80vh;
+    display: block;
+    border-radius: 2%;
+    padding: 20px;
+}
+
+.equilibrium {
+    display: flex;
+    justify-content: center;
+}
+
+.equilibrium img {
+    height: 45vh;
+    padding-bottom: 20px;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.name {
+    color: white;
+    font-weight: 300;
+}
+
+.p3 {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.ethereum,
+.clock {
+    display: flex;
+}
+
+.clock img, .ethereum img {
+    height: 15px;
+}
+
+.avatar {
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    align-items: center;
+    gap: 16px;
+}
+
+.avatar img {
+    height: 30px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+hr {
+    margin-top: 18px;
+    border: 0.2px hsl(215, 32%, 27%) solid;
+}
+
+.p1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.p2 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(229, 33%, 33%);
+    font-size: 14px;
+}
+
+.p4 {
+    font-size: 11px;
+}
+
+.p5 {
+    font-weight: 600;
+}
